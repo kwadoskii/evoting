@@ -1,0 +1,62 @@
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.dll
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.xml
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csprojResolveAssemblyReference.cache
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AddCandidate.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form2.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form3.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.voterRegistrationForm.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csproj.GenerateResource.Cache
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.dll
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.dll
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.xml
+J:\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.xml
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csprojResolveAssemblyReference.cache
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AddCandidate.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form2.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form3.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Portfolio.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.voterRegistrationForm.resources
+J:\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csproj.GenerateResource.Cache
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.dll
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.xml
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csprojResolveAssemblyReference.cache
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AddCandidate.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.voterRegistrationForm.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\Votting_App.csproj.GenerateResource.Cache
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.manifest
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.application
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.adminLoginPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AdminPortal.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AddAdminPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.MainLoginPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.AddCandidatePortfolio.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.voterInterface.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe.manifest
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.application

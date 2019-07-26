@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.admin)">
+        <MappingFragment StoreEntitySet="admins">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="voters1">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.voter)">
+        <MappingFragment StoreEntitySet="voters1">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="middleName" ColumnName="middleName" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="phoneNo" ColumnName="phoneNo" />
+          <ScalarProperty Name="department" ColumnName="department" />
+          <ScalarProperty Name="regNo" ColumnName="regNo" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="fingerPrint" ColumnName="fingerPrint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="candidates">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.candidate)">
+        <MappingFragment StoreEntitySet="candidates">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="surname" ColumnName="surname" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="middlename" ColumnName="middlename" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="position" ColumnName="position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="elections">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.election)">
+        <MappingFragment StoreEntitySet="elections">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="office" ColumnName="office" />
+          <ScalarProperty Name="startDate" ColumnName="startDate" />
+          <ScalarProperty Name="endDate" ColumnName="endDate" />
+          <ScalarProperty Name="resultId" ColumnName="resultId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="results">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.result)">
+        <MappingFragment StoreEntitySet="results">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="electionId" ColumnName="electionId" />
+          <ScalarProperty Name="candidateId" ColumnName="candidateId" />
+          <ScalarProperty Name="voterId" ColumnName="voterId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

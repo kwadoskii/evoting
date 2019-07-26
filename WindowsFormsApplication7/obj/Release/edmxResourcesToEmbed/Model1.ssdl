@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="admins" EntityType="Model1.Store.admins" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="voters1" EntityType="Model1.Store.voters1" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="candidates" EntityType="Model1.Store.candidates" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="elections" EntityType="Model1.Store.elections" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="results" EntityType="Model1.Store.results" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="resultcandidate" Association="Model1.Store.resultcandidate">
+      <End Role="result" EntitySet="results" />
+      <End Role="candidate" EntitySet="candidates" />
+    </AssociationSet>
+    <AssociationSet Name="resultvoter" Association="Model1.Store.resultvoter">
+      <End Role="result" EntitySet="results" />
+      <End Role="voter" EntitySet="voters1" />
+    </AssociationSet>
+    <AssociationSet Name="resultelection" Association="Model1.Store.resultelection">
+      <End Role="result" EntitySet="results" />
+      <End Role="election" EntitySet="elections" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="admins">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="voters1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="middleName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="sex" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="phoneNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="department" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="regNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="fingerPrint" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="candidates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="surname" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="middlename" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="image" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="position" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="elections">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="office" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="startDate" Type="datetime" Nullable="false" />
+    <Property Name="endDate" Type="datetime" Nullable="false" />
+    <Property Name="resultId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="results">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="electionId" Type="int" Nullable="false" />
+    <Property Name="candidateId" Type="int" Nullable="false" />
+    <Property Name="voterId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="resultcandidate">
+    <End Role="result" Type="Model1.Store.results" Multiplicity="*" />
+    <End Role="candidate" Type="Model1.Store.candidates" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="candidate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="candidateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="resultvoter">
+    <End Role="result" Type="Model1.Store.results" Multiplicity="*" />
+    <End Role="voter" Type="Model1.Store.voters1" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="voter">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="voterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="resultelection">
+    <End Role="result" Type="Model1.Store.results" Multiplicity="*" />
+    <End Role="election" Type="Model1.Store.elections" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="election">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="electionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

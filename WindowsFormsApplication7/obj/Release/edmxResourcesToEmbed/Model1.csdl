@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Model1.admin" />
+    <EntitySet Name="voters1" EntityType="Model1.voter" />
+    <EntitySet Name="candidates" EntityType="Model1.candidate" />
+    <EntitySet Name="elections" EntityType="Model1.election" />
+    <EntitySet Name="results" EntityType="Model1.result" />
+    <AssociationSet Name="resultcandidate" Association="Model1.resultcandidate">
+      <End Role="result" EntitySet="results" />
+      <End Role="candidate" EntitySet="candidates" />
+    </AssociationSet>
+    <AssociationSet Name="resultvoter" Association="Model1.resultvoter">
+      <End Role="result" EntitySet="results" />
+      <End Role="voter" EntitySet="voters1" />
+    </AssociationSet>
+    <AssociationSet Name="resultelection" Association="Model1.resultelection">
+      <End Role="result" EntitySet="results" />
+      <End Role="election" EntitySet="elections" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" Nullable="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="password" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="voter">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" Nullable="false" />
+    <Property Name="name" Type="String" Nullable="false" />
+    <Property Name="middleName" Type="String" Nullable="false" />
+    <Property Name="sex" Type="String" Nullable="false" />
+    <Property Name="phoneNo" Type="String" Nullable="false" />
+    <Property Name="department" Type="String" Nullable="false" />
+    <Property Name="regNo" Type="String" Nullable="false" />
+    <Property Name="password" Type="String" Nullable="false" />
+    <Property Name="image" Type="Binary" Nullable="false" />
+    <Property Name="fingerPrint" Type="String" Nullable="false" />
+    <NavigationProperty Name="results" Relationship="Model1.resultvoter" FromRole="voter" ToRole="result" />
+  </EntityType>
+  <EntityType Name="candidate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="surname" Type="String" Nullable="false" />
+    <Property Name="name" Type="String" Nullable="false" />
+    <Property Name="middlename" Type="String" Nullable="false" />
+    <Property Name="image" Type="Binary" Nullable="false" />
+    <Property Name="position" Type="String" Nullable="false" />
+    <NavigationProperty Name="results" Relationship="Model1.resultcandidate" FromRole="candidate" ToRole="result" />
+  </EntityType>
+  <EntityType Name="election">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="office" Type="String" Nullable="false" />
+    <Property Name="startDate" Type="DateTime" Nullable="false" />
+    <Property Name="endDate" Type="DateTime" Nullable="false" />
+    <Property Name="resultId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="results" Relationship="Model1.resultelection" FromRole="election" ToRole="result" />
+  </EntityType>
+  <EntityType Name="result">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="electionId" Type="Int32" Nullable="false" />
+    <Property Name="candidateId" Type="Int32" Nullable="false" />
+    <Property Name="voterId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="election" Relationship="Model1.resultelection" FromRole="result" ToRole="election" />
+    <NavigationProperty Name="candidate" Relationship="Model1.resultcandidate" FromRole="result" ToRole="candidate" />
+    <NavigationProperty Name="voter" Relationship="Model1.resultvoter" FromRole="result" ToRole="voter" />
+  </EntityType>
+  <Association Name="resultcandidate">
+    <End Type="Model1.result" Role="result" Multiplicity="*" />
+    <End Type="Model1.candidate" Role="candidate" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="candidate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="candidateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="resultvoter">
+    <End Type="Model1.result" Role="result" Multiplicity="*" />
+    <End Type="Model1.voter" Role="voter" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="voter">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="voterId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="resultelection">
+    <End Type="Model1.result" Role="result" Multiplicity="*" />
+    <End Type="Model1.election" Role="election" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="election">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="result">
+        <PropertyRef Name="electionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

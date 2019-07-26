@@ -1,0 +1,61 @@
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.dll
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.xml
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csprojResolveAssemblyReference.cache
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csproj.GenerateResource.Cache
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\documents\visual studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form2.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form3.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.voterRegistrationForm.resources
+C:\Users\Kwadoskii Noni\Documents\Visual Studio 2013\Projects\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AddCandidate.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.dll
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.xml
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AddCandidate.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form2.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form3.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.voterRegistrationForm.resources
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\Project\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Portfolio.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csprojResolveAssemblyReference.cache
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AddCandidate.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.voterRegistrationForm.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\Votting_App.csproj.GenerateResource.Cache
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.dll
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.xml
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.manifest
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.application
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe.manifest
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.application
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.adminLoginPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AdminPortal.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AddAdminPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.MainLoginPage.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.AddCandidatePortfolio.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.voterInterface.resources
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\GriauleFingerprintLibrary.dll
+C:\Users\Kwadoskii Noni\Desktop\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.ResultPage.resources
